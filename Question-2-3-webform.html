@@ -28,7 +28,9 @@
     <body>
       <h1>Feedback form</h1>
       <!-- Added the role of 'form' to enhance accessibility. -->
-      <form role="form" aria-labelledby="form-title">
+      <fieldset>
+        <legend>Please fill out this form</legend>
+        <form role="form" aria-labelledby="form-title">
            <!--Utilize the 'for' attribute to link labels with their corresponding input fields. -->
         <div class="control">
           <label for="name">Full name <span class="required">*</span></label>
@@ -44,7 +46,7 @@
         </div>
   
         <!-- Added fieldset and legend -->
-        <fieldset>
+        
           <legend>Gender <span class="required">*</span></legend>
           <div class="control">
               <label for="gender_male">Male</label>
